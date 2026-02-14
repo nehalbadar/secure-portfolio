@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Nasic Badar - Full Stack Developer</title>
+    <meta name="description" content="Professional resume of Nasic Badar, Full Stack Developer specializing in React, Node.js, Python, and modern web technologies.">
+    <meta name="keywords" content="resume, CV, full stack developer, React, Node.js, Python, portfolio">
+    <meta name="author" content="Nasic Badar">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nasicbadar.dev/resume">
+    <meta property="og:title" content="Resume - Nasic Badar - Full Stack Developer">
+    <meta property="og:description" content="Professional resume showcasing full stack development skills and experience.">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://nasicbadar.dev/resume">
+
+    <!-- Google Analytics - Add your GA ID when deploying -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_ID"></script> -->
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    <style>
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: var(--secondary-bg);
+            border-radius: 8px;
+            margin-top: 6rem;
+        }
+
+        .resume-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .resume-name {
+            font-size: 2.5rem;
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .resume-title {
+            font-size: 1.2rem;
+            color: var(--muted-text);
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-color);
+        }
+
+        .resume-section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .experience-item, .education-item, .project-item {
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            border-left: 2px solid var(--accent-color);
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .item-title {
+            font-weight: bold;
+            color: var(--text-color);
+        }
+
+        .item-date {
+            color: var(--muted-text);
+            font-size: 0.9rem;
+        }
+
+        .item-subtitle {
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .skill-category {
+            margin-bottom: 1rem;
+        }
+
+        .skill-category h4 {
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-tag {
+            background: var(--accent-color);
+            color: var(--bg-color);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: var(--accent-color);
+            color: var(--bg-color);
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background: var(--accent-hover);
+        }
+
+        @media (max-width: 768px) {
+            .resume-container {
+                margin: 5rem 1rem 2rem;
+                padding: 1rem;
+            }
+
+            .resume-name {
+                font-size: 2rem;
+            }
+
+            .contact-info {
+                gap: 1rem;
+            }
+
+            .item-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1 class="nav-title">SecurePortfolio</h1>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button id="hamburger-menu" class="hamburger-menu" aria-label="Toggle menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="resume-container">
+        <header class="resume-header">
+            <h1 class="resume-name">Nasic Badar</h1>
+            <p class="resume-title">Full Stack Developer</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>📧</span>
+                    <span>badarnasic@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <span>📱</span>
+                    <span>Available for Remote Work</span>
+                </div>
+                <div class="contact-item">
+                    <span>📍</span>
+                    <span>Lahore, Pakistan</span>
+                </div>
+                <div class="contact-item">
+                    <span>🔗</span>
+                    <a href="https://github.com/nasicbadar" target="_blank">github.com/nasicbadar</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="resume-section">
+            <h2 class="section-title">Professional Summary</h2>
+            <p>Passionate developer with expertise in full-stack development, data science, and cybersecurity. Currently pursuing advanced studies while building practical experience through hands-on projects. Committed to writing clean, efficient code and implementing robust security practices from the ground up.</p>
+        </section>
+
+        <section class="resume-section">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience-item">
+                <div class="item-header">
+                    <h3 class="item-title">Full-Stack Developer & Security Researcher</h3>
+                    <span class="item-date">2024 - Present</span>
+                </div>
+                <p class="item-subtitle">Freelance / Self-Employed</p>
+                <ul>
+                    <li>Developed secure web applications using modern technologies</li>
+                    <li>Implemented authentication and authorization systems</li>
+                    <li>Conducted security assessments and vulnerability testing</li>
+                    <li>Built data-driven applications with machine learning integration</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="item-header">
+                    <h3 class="item-title">Data Science & AI Projects</h3>
+                    <span class="item-date">2023 - Present</span>
+                </div>
+                <p class="item-subtitle">Personal Projects</p>
+                <ul>
+                    <li>Developed machine learning models for predictive analytics</li>
+                    <li>Created interactive data visualizations and dashboards</li>
+                    <li>Implemented NLP solutions using BioBERT and vector embeddings</li>
+                    <li>Built recommendation systems and data processing pipelines</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education-item">
+                <div class="item-header">
+                    <h3 class="item-title">Bachelor of Science in Computer Science</h3>
+                    <span class="item-date">Expected Graduation: 2026</span>
+                </div>
+                <p class="item-subtitle">University of Lahore, Pakistan</p>
+                <p>Currently pursuing degree with focus on software engineering, data science, and cybersecurity.</p>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Frontend</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">TypeScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Backend</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Data Science & AI</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">TensorFlow</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Cybersecurity</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">OWASP</span>
+                        <span class="skill-tag">Penetration Testing</span>
+                        <span class="skill-tag">Kali Linux</span>
+                        <span class="skill-tag">Network Security</span>
+                        <span class="skill-tag">Ethical Hacking</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="project-item">
+                <div class="item-header">
+                    <h3 class="item-title">Secure Portfolio Platform</h3>
+                    <span class="item-date">2024</span>
+                </div>
+                <p>Full-stack portfolio website with security-first approach, contact forms, and responsive design. Features security headers, rate limiting, and secure API endpoints.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Express</span>
+                    <span class="skill-tag">Security</span>
+                    <span class="skill-tag">API Design</span>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="item-header">
+                    <h3 class="item-title">Medical RAG AI Assistant</h3>
+                    <span class="item-date">2023</span>
+                </div>
+                <p>Intelligent medical assistant using Retrieval-Augmented Generation with BioBERT embeddings for processing medical PDFs and providing context-aware responses.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">BioBERT</span>
+                    <span class="skill-tag">NLP</span>
+                    <span class="skill-tag">AI</span>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="item-header">
+                    <h3 class="item-title">Web Security Testing Lab</h3>
+                    <span class="item-date">2023</span>
+                </div>
+                <p>Controlled environment for demonstrating web vulnerabilities including SQL injection, XSS, CSRF with proper defense mechanisms using OWASP guidelines.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Security</span>
+                    <span class="skill-tag">OWASP</span>
+                    <span class="skill-tag">Vulnerability Testing</span>
+                    <span class="skill-tag">Node.js</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2 class="section-title">Certifications & Achievements</h2>
+            <ul>
+                <li>OWASP Web Application Security Fundamentals</li>
+                <li>Google Data Analytics Professional Certificate (In Progress)</li>
+                <li>CompTIA Security+ (Preparing)</li>
+                <li>Multiple HackTheBox machines completed</li>
+                <li>Open source contributor on GitHub</li>
+            </ul>
+        </section>
+
+        <div style="text-align: center;">
+            <a href="#" class="download-btn" onclick="window.print()">📄 Download PDF Version</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html></content>
+<parameter name="filePath">c:\Users\Nasic Badar\Desktop\secure-portfolio\Frontend\resume.html

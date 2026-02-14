@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <a href="/">← Home</a>
+      <h1>Safe Search</h1>
+      <p class="muted">This page reflects query input safely via template escaping.</p>
+
+      <form method="get" action="/search" class="card">
+        <label>
+          Query
+          <input name="q" value="<%= q %>" />
+        </label>
+        <button type="submit">Search</button>
+      </form>
+
+      <section class="card">
+        <h2>Result</h2>
+        <p>You searched for: <strong><%= q %></strong></p>
+      </section>
+    </main>
+  </body>
+</html>

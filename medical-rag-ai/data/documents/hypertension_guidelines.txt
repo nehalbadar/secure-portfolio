@@ -1,0 +1,258 @@
+Hypertension: Clinical Guidelines and Management
+
+Introduction
+Hypertension, commonly known as high blood pressure, is one of the most prevalent cardiovascular risk factors worldwide. It is defined as persistently elevated arterial blood pressure, typically systolic blood pressure (SBP) ≥130 mmHg or diastolic blood pressure (DBP) ≥80 mmHg.
+
+Classification of Blood Pressure
+According to current guidelines:
+- Normal: SBP <120 mmHg and DBP <80 mmHg
+- Elevated: SBP 120-129 mmHg and DBP <80 mmHg
+- Stage 1 Hypertension: SBP 130-139 mmHg or DBP 80-89 mmHg
+- Stage 2 Hypertension: SBP ≥140 mmHg or DBP ≥90 mmHg
+- Hypertensive Crisis: SBP >180 mmHg and/or DBP >120 mmHg
+
+Epidemiology
+Hypertension affects approximately 1.28 billion adults worldwide. The prevalence increases with age, and it is more common in men than women until age 65. Risk factors include obesity, high sodium intake, physical inactivity, excessive alcohol consumption, and genetic predisposition.
+
+Pathophysiology
+Blood pressure is determined by cardiac output and systemic vascular resistance. Hypertension develops through complex interactions involving:
+- Increased sympathetic nervous system activity
+- Activation of the renin-angiotensin-aldosterone system (RAAS)
+- Endothelial dysfunction
+- Increased sodium retention
+- Vascular remodeling
+
+Primary vs Secondary Hypertension
+
+Primary (Essential) Hypertension
+Accounts for 90-95% of cases. The exact cause is unknown but involves multiple genetic and environmental factors. It develops gradually over many years.
+
+Secondary Hypertension
+Results from an identifiable underlying condition:
+- Renal disease (most common cause)
+- Renovascular disease
+- Primary aldosteronism
+- Cushing's syndrome
+- Pheochromocytoma
+- Coarctation of the aorta
+- Obstructive sleep apnea
+- Medications (NSAIDs, oral contraceptives, decongestants)
+
+Clinical Presentation
+Hypertension is often asymptomatic, earning it the nickname "silent killer." When symptoms occur, they may include:
+- Headache (especially occipital, in the morning)
+- Dizziness
+- Blurred vision
+- Shortness of breath
+- Nosebleeds
+- Chest pain
+
+Target Organ Damage
+Chronic hypertension can damage multiple organs:
+
+Cardiovascular System
+- Left ventricular hypertrophy
+- Heart failure
+- Coronary artery disease
+- Myocardial infarction
+- Arrhythmias
+
+Brain
+- Stroke (ischemic or hemorrhagic)
+- Transient ischemic attacks
+- Vascular dementia
+- Hypertensive encephalopathy
+
+Kidneys
+- Chronic kidney disease
+- Proteinuria
+- End-stage renal disease
+
+Eyes
+- Hypertensive retinopathy
+- Retinal hemorrhages
+- Vision loss
+
+Peripheral Vasculature
+- Peripheral arterial disease
+- Aortic aneurysm and dissection
+
+Diagnosis and Evaluation
+
+Blood Pressure Measurement
+Proper technique is crucial:
+- Patient should be seated quietly for 5 minutes
+- Back supported, feet flat on floor
+- Arm supported at heart level
+- Appropriate cuff size
+- Multiple readings on different occasions
+
+Diagnostic Workup
+Initial evaluation includes:
+- Comprehensive history and physical examination
+- Laboratory tests:
+  * Complete blood count
+  * Basic metabolic panel
+  * Lipid profile
+  * Urinalysis
+  * ECG
+  * Estimated glomerular filtration rate
+- Consider additional tests based on clinical suspicion
+
+Ambulatory Blood Pressure Monitoring
+Provides average BP over 24 hours and identifies:
+- White coat hypertension
+- Masked hypertension
+- Nocturnal hypertension
+- BP variability
+
+Management Strategies
+
+Lifestyle Modifications
+Essential for all patients:
+
+Diet
+- DASH diet (Dietary Approaches to Stop Hypertension)
+- Sodium restriction: <2,300 mg/day, ideally <1,500 mg/day
+- Increased potassium intake
+- Limited alcohol consumption
+- Reduced saturated and trans fats
+
+Physical Activity
+- At least 150 minutes of moderate-intensity aerobic activity per week
+- Resistance training 2-3 times per week
+- Daily physical activity encouraged
+
+Weight Management
+- Target BMI 18.5-24.9 kg/m²
+- Even 5-10% weight loss can significantly reduce BP
+
+Stress Management
+- Relaxation techniques
+- Adequate sleep
+- Stress reduction strategies
+
+Pharmacological Treatment
+
+First-Line Antihypertensives
+1. Thiazide or Thiazide-like Diuretics
+   - Hydrochlorothiazide, chlorthalidone
+   - Mechanism: Reduce blood volume
+
+2. ACE Inhibitors
+   - Lisinopril, enalapril, ramipril
+   - Mechanism: Block conversion of angiotensin I to II
+
+3. Angiotensin Receptor Blockers (ARBs)
+   - Losartan, valsartan, telmisartan
+   - Mechanism: Block angiotensin II receptors
+
+4. Calcium Channel Blockers
+   - Amlodipine, diltiazem, verapamil
+   - Mechanism: Reduce calcium influx into vascular smooth muscle
+
+Treatment Initiation
+- Stage 1 hypertension with ASCVD risk <10%: Lifestyle modifications for 3-6 months
+- Stage 1 hypertension with ASCVD risk ≥10%: Lifestyle modifications + medication
+- Stage 2 hypertension: Lifestyle modifications + two medications
+
+Additional Agents
+- Beta-blockers: Metoprolol, atenolol (specific indications)
+- Alpha-blockers: Doxazosin, prazosin
+- Direct vasodilators: Hydralazine
+- Aldosterone antagonists: Spironolactone, eplerenone
+
+Treatment Goals
+General population: <130/80 mmHg
+Consider individual factors:
+- Age
+- Comorbidities
+- Risk of adverse effects
+- Patient preferences
+
+Special Populations
+
+Pregnancy
+- Chronic hypertension predates pregnancy
+- Gestational hypertension develops after 20 weeks
+- Preeclampsia: Hypertension with proteinuria
+- Management: Methyldopa, labetalol, nifedipine
+- Avoid ACE inhibitors and ARBs (teratogenic)
+
+Elderly Patients
+- Higher prevalence of isolated systolic hypertension
+- Increased risk of orthostatic hypotension
+- Start low, go slow with medications
+- Target: <130/80 mmHg if tolerated
+
+Diabetes
+- Higher cardiovascular risk
+- Target: <130/80 mmHg
+- ACE inhibitors or ARBs preferred (renoprotective)
+
+Chronic Kidney Disease
+- Target: <130/80 mmHg
+- ACE inhibitors or ARBs for proteinuria
+- May require multiple agents
+
+Hypertensive Emergencies
+BP ≥180/120 mmHg with acute target organ damage:
+- Hypertensive encephalopathy
+- Acute myocardial infarction
+- Acute heart failure
+- Aortic dissection
+- Stroke
+
+Management:
+- Immediate hospitalization
+- IV antihypertensive therapy
+- Reduce BP by 10-15% in first hour
+- Avoid excessive BP reduction
+
+Monitoring and Follow-up
+- Initial follow-up: 1 month after starting treatment
+- Stable patients: Every 3-6 months
+- Monitor for:
+  * BP control
+  * Medication adherence
+  * Side effects
+  * Target organ damage
+  * Electrolyte abnormalities
+
+Patient Education
+Key topics:
+- Understanding hypertension and its risks
+- Proper home BP monitoring technique
+- Medication compliance
+- Lifestyle modifications
+- Recognition of warning signs
+- Importance of regular follow-up
+
+Prognosis
+With appropriate treatment, cardiovascular risk can be significantly reduced. However, hypertension remains a leading cause of:
+- Stroke
+- Heart attack
+- Heart failure
+- Kidney disease
+- Premature death
+
+Resistant Hypertension
+Defined as uncontrolled BP despite:
+- Three or more medications (including a diuretic)
+- All at optimal doses
+
+Causes:
+- Non-adherence
+- Improper BP measurement
+- Secondary causes
+- Interfering substances
+- Volume overload
+
+Management:
+- Assess adherence
+- Screen for secondary causes
+- Consider specialist referral
+- Add mineralocorticoid receptor antagonist
+
+Conclusion
+Hypertension is a major public health challenge requiring comprehensive management. Early detection, lifestyle modifications, and appropriate pharmacological therapy can prevent serious cardiovascular complications. A patient-centered approach with regular monitoring and adjustment of therapy is essential for optimal outcomes.

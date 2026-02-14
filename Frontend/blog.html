@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Nasic Badar</title>
+
+    <!-- Google Analytics - Add your GA ID when deploying -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_ID"></script> -->
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    <meta name="description" content="Read Nasic Badar's latest blog posts on software development, data science, ethical hacking, and technology trends. Insights from a full-stack developer and cybersecurity enthusiast.">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <h1 class="nav-title">SecurePortfolio</h1>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button id="hamburger-menu" class="hamburger-menu" aria-label="Toggle menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="blog-hero">
+            <div class="container">
+                <h1>Blog & Articles</h1>
+                <p>Sharing my thoughts on software development, technology trends, and personal projects</p>
+            </div>
+        </section>
+
+        <section class="blog-content">
+            <div class="container">
+                <div class="blog-grid" id="blog-container">
+                    <!-- Blog posts will be loaded here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Nasic Badar</p>
+            <div class="footer-social">
+                <a href="https://github.com/nasicbadar" target="_blank" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 0C5.374 0 0 5.373 0 12 0 17.302 3.438 21.8 8.207 23.387c.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com/in/nasicbadar" target="_blank" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                </a>
+                <a href="https://twitter.com/nasicbadar" target="_blank" aria-label="Twitter">
+                    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Blog posts data
+        const blogPosts = [
+            {
+                id: 1,
+                title: "Building Scalable Web Applications with Modern JavaScript",
+                excerpt: "Exploring the latest trends in JavaScript development, from ES6+ features to modern frameworks and best practices for building maintainable code.",
+                date: "2024-01-15",
+                readTime: "8 min read",
+                tags: ["JavaScript", "Web Development", "Best Practices"],
+                image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400&h=250&fit=crop"
+            },
+            {
+                id: 2,
+                title: "The Future of AI in Software Development",
+                excerpt: "How artificial intelligence is transforming the way we write code, from code completion tools to automated testing and deployment pipelines.",
+                date: "2024-01-10",
+                readTime: "6 min read",
+                tags: ["AI", "Machine Learning", "DevOps"],
+                image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=250&fit=crop"
+            },
+            {
+                id: 3,
+                title: "Mastering CSS Grid and Flexbox",
+                excerpt: "A comprehensive guide to modern CSS layout techniques, with practical examples and real-world use cases for creating responsive designs.",
+                date: "2024-01-05",
+                readTime: "10 min read",
+                tags: ["CSS", "Responsive Design", "Frontend"],
+                image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop"
+            },
+            {
+                id: 4,
+                title: "Node.js Best Practices for Production Applications",
+                excerpt: "Essential tips and techniques for building robust, scalable Node.js applications that can handle real-world traffic and edge cases.",
+                date: "2023-12-28",
+                readTime: "12 min read",
+                tags: ["Node.js", "Backend", "Performance"],
+                image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=250&fit=crop"
+            },
+            {
+                id: 5,
+                title: "Version Control Strategies with Git",
+                excerpt: "Advanced Git workflows, branching strategies, and collaboration techniques for efficient team development and code management.",
+                date: "2023-12-20",
+                readTime: "7 min read",
+                tags: ["Git", "Version Control", "Collaboration"],
+                image: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=250&fit=crop"
+            },
+            {
+                id: 6,
+                title: "Securing Your Web Applications",
+                excerpt: "Comprehensive security practices for web developers, covering common vulnerabilities, authentication, and data protection strategies.",
+                date: "2023-12-15",
+                readTime: "9 min read",
+                tags: ["Security", "Web Development", "Authentication"],
+                image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=250&fit=crop"
+            }
+        ];
+
+        // Load blog posts
+        function loadBlogPosts() {
+            const container = document.getElementById('blog-container');
+
+            // Show skeleton loading
+            container.innerHTML = `
+                <article class="blog-card skeleton-card">
+                    <div class="blog-image">
+                        <div class="skeleton" style="width: 100%; height: 200px;"></div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="skeleton skeleton-text" style="width: 30%; height: 1em; margin-bottom: 0.5em;"></div>
+                        <div class="skeleton skeleton-text" style="width: 80%; height: 1.5em; margin-bottom: 0.5em;"></div>
+                        <div class="skeleton skeleton-text" style="width: 100%; height: 1em; margin-bottom: 0.5em;"></div>
+                        <div class="skeleton skeleton-text" style="width: 60%; height: 1em; margin-bottom: 1em;"></div>
+                        <div class="skeleton" style="width: 100px; height: 2em;"></div>
+                    </div>
+                </article>
+                <article class="blog-card skeleton-card">
+                    <div class="blog-image">
+                        <div class="skeleton" style="width: 100%; height: 200px;"></div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="skeleton skeleton-text" style="width: 30%; height: 1em; margin-bottom: 0.5em;"></div>
+                        <div class="skeleton skeleton-text" style="width: 80%; height: 1.5em; margin-bottom: 0.5em;"></div>
+                        <div class="skeleton skeleton-text" style="width: 100%; height: 1em; margin-bottom: 0.5em;"></div>
+                        <div class="skeleton skeleton-text" style="width: 60%; height: 1em; margin-bottom: 1em;"></div>
+                        <div class="skeleton" style="width: 100px; height: 2em;"></div>
+                    </div>
+                </article>
+            `;
+
+            // Simulate loading delay for demo
+            setTimeout(() => {
+                container.innerHTML = '';
+
+                blogPosts.forEach(post => {
+                    const postElement = document.createElement('article');
+                    postElement.className = 'blog-card';
+                    postElement.innerHTML = `
+                        <div class="blog-image">
+                            <img src="${post.image}" alt="${post.title}" loading="lazy">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-date">${formatDate(post.date)}</span>
+                                <span class="blog-read-time">${post.readTime}</span>
+                            </div>
+                            <h3 class="blog-title">${post.title}</h3>
+                            <p class="blog-excerpt">${post.excerpt}</p>
+                            <div class="blog-tags">
+                                ${post.tags.map(tag => `<span class="blog-tag">${tag}</span>`).join('')}
+                            </div>
+                            <a href="#" class="blog-link">Read More →</a>
+                        </div>
+                    `;
+                    container.appendChild(postElement);
+                });
+            }, 1000);
+        }
+
+        // Format date
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+        }
+
+        // Load blog posts when page loads
+        document.addEventListener('DOMContentLoaded', loadBlogPosts);
+    </script>
+</body>
+</html>

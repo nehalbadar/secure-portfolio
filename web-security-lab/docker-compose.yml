@@ -1,0 +1,46 @@
+name: web-security-lab
+
+services:
+  portfolio:
+    build:
+      context: ..
+      dockerfile: web-security-lab/portfolio-target/Dockerfile
+    container_name: web-security-lab-portfolio
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5000:5000"
+    environment:
+      - NODE_ENV=production
+
+  secureapp:
+    build:
+      context: ./secure-reference-app
+    container_name: web-security-lab-secureapp
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:4000:4000"
+    environment:
+      - NODE_ENV=production
+      - PORT=4000
+
+  # Automated scan job (run it via: `docker compose run --rm zapscan`)
+  zapscan:
+    image: zaproxy/zap-stable:latest
+    container_name: web-security-lab-zapscan
+    profiles: ["scan"]
+    depends_on:
+      - portfolio
+    volumes:
+      - ./reports/output:/zap/wrk
+    command:
+      [
+        "zap-baseline.py",
+        "-t",
+        "http://portfolio:5000",
+        "-r",
+        "zap-portfolio-report.html",
+        "-J",
+        "zap-portfolio-report.json",
+        "-m",
+        "3"
+      ]
